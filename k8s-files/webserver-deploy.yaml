@@ -15,7 +15,7 @@ spec:
         app: webserver-deploy
     spec:
       containers:
-      - image: 046402772087.dkr.ecr.us-east-1.amazonaws.com/phonebook-jo/web:latest
+      - image: 3842051638/webserver
         name: webserver
         ports:
         - containerPort: 80
