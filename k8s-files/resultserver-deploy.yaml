@@ -15,7 +15,7 @@ spec:
         app: resultserver-deploy
     spec:
       containers:
-      - image: 3842051638/resultserver
+      - image: 046402772087.dkr.ecr.us-east-1.amazonaws.com/phonebook-jo/result:latest
         name: resultserver
         ports:
         - containerPort: 80
