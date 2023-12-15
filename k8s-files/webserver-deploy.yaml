@@ -14,6 +14,8 @@ spec:
       labels:
         app: webserver-deploy
     spec:
+      imagePullSecrets:
+        - name: regcred
       containers:
       - image: 046402772087.dkr.ecr.us-east-1.amazonaws.com/phonebook-jo/web:latest
         name: webserver
